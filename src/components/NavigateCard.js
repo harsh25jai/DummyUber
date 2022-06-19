@@ -57,7 +57,7 @@ const NavigateCard = () => {
                             }
                         }} />
                 </View>
-                <NavFavourites />
+                <NavFavourites from={'NAVIGATESCREEN'} />
             </View>
 
             <View style={tw`flex-row bg-white justify-evenly py-2 mt-auto border-t border-gray-200`}>
