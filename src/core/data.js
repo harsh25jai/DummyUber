@@ -24,14 +24,14 @@ export const NavFavouritesData = [
         id: '1',
         icon: 'home',
         title: 'Home',
-        location: {"lat": 51.5072178, "lng": -0.1275862},
+        location: { "lat": 51.5072178, "lng": -0.1275862 },
         destination: 'London, UK'
     },
     {
         id: '2',
         icon: 'briefcase',
         title: 'Work',
-        location:'',
+        location: { "lat": 51.5032973, "lng": -0.1195537 },
         destination: 'London Eye, London, UK'
     },
 ];
