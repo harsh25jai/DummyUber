@@ -1,7 +1,7 @@
 export const GOOGLE_MAPS_APIKEY = 'AIzaSyDY7YOE9pLlsmHemgUEfZV8tiysM-k-Ubs';
 
 export const IMAGES = {
-    UBER_LOGO: { uri: 'https://links.papareact.com/gzs' }
+    UBER_LOGO: require('../assets/images/Uber_logo.png')
 };
 
 export const NavOptionsData = [

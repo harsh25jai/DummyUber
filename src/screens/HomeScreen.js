@@ -15,12 +15,14 @@ const HomeScreen = ({ navigation }) => {
     return (
         <SafeAreaView style={tw`bg-white h-full`}>
             <View style={tw`p-5`}>
-                <AdvanceImage
-                    source={IMAGES.UBER_LOGO}
-                    style={{ width: 100, height: 100 }}
-                    resizeMethod='auto'
-                    resizeMode='contain' />
-
+                <View style={{flexDirection: 'row', alignItems: 'center'}}>
+                    <Text style={tw`mr-3 text-lg`}>dummy</Text>
+                    <AdvanceImage
+                        source={IMAGES.UBER_LOGO}
+                        style={{ width: 100, height: 100 }}
+                        resizeMethod='auto'
+                        resizeMode='contain' />
+                </View>
                 <GooglePlacesAutocomplete
                     placeholder='Where From'
                     nearbyPlacesAPI='GooglePlacesSearch'
@@ -47,7 +49,10 @@ const HomeScreen = ({ navigation }) => {
                             flex: 0
                         },
                         textInput: {
-                            fontSize: 16
+                            backgroundColor: '#DDDDDF',
+                            borderRadius: 0,
+                            fontSize: 16,
+                            color: '#000000'
                         }
                     }}
                 />
